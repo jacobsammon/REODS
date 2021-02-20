@@ -47,9 +47,6 @@ apt install brave-browser -y
 #	Install GNOME (DE / Desktop Environment)
 apt-get install task-gnome-desktop -y
 
-#	Start GNOME
-startx
-
 #	Set Wallpaper (GNOME)
 gsettings set org.gnome.desktop.background picture-uri https://reods.jbsn.uk/background.jpg
 
@@ -58,3 +55,6 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize
 
 #	Finished Installation Box
 zenity --info --text="Installation finished!\n\nFor support, documentation, etc, see the REODS website, <a href="https://reods.jbsn.uk">reods.jbsn.uk</a>.\n\nVersion 0.5\n\n(C) Jacob Sammon, 2021" --title="Installation of REODS finished" --ok-label="Okay, great!"
+
+#	Start GNOME
+startx
