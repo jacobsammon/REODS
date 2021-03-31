@@ -8,7 +8,8 @@
 # reods.jbsn.uk/licence.
 #
 # This is free software, and you are welcome to redistribute it under
-# certain conditions; see reods.jbsn.uk/licence for details.
+# certain conditions; see github.com/jacobsammon/REODS/blob/main/LICENSE
+# for details.
 
 #	Updating, etc
 apt update -y
@@ -32,6 +33,26 @@ apt-get install obs-studio -y
 apt-get install wget -y
 apt-get install neofetch -y
 apt-get install qbittorrent -y
+apt-get install neovim -y
+
+# Muttwizard
+apt-get install neomutt -y
+apt-get install isync -y
+apt-get install msmtp -y
+apt-get install pass -y
+apt-get install pam-gnupg -y
+apt-get install lynx -y
+apt-get install notmuch -y
+apt-get install abook -y
+apt-get install cronie -y
+apt-get install urlview -y
+apt-get install mpop -y
+
+git clone https://github.com/LukeSmithxyz/mutt-wizard
+cd mutt-wizard
+sudo make install
+
+cd ~
 
 #	Installing Programs | SNAP
 snap install gimp
