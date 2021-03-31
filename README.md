@@ -18,9 +18,9 @@ Next, install CURL:
 ```
 $ apt install curl
 ```
-Now, download REODS, jbsn.uk/reods.sh simply redirects to the GitHub-hosted file:
+Now, download REODS
 ```
-$ curl -LO https://reods.jbsn.uk/reods.sh
+$ curl -LO https://github.com/jacobsammon/REODS/blob/main/reods.sh
 ```
 Penultimately, change the file permissions to allow it to be executed:
 ```
