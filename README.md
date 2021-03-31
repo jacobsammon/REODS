@@ -33,6 +33,8 @@ Finally, execute the script:
 ```
 $ ./reods.sh
 ```
+### Notes
+I've had to remove the changes to bg image, etc, due to issues around GNOME.
 
 # More Info
 ### Visit https://reods.jbsn.uk
