@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # REODS: Really Easy Open Debian Software
-# Created by Jacob Sammon <jacob@eml.pm> <jacobsammon.com>
+# Created by Jacob Sammon <jacob@eml.pm> <jacob-sa.net>
 #
 # REODS is Copyright (C) 2021 Jacob Sammon
 # This program comes with ABSOLUTELY NO WARRANTY; for details see
@@ -46,15 +46,6 @@ apt install brave-browser -y
 
 #	Install GNOME (DE / Desktop Environment)
 apt-get install task-gnome-desktop -y
-
-#	Set Wallpaper (GNOME)
-gsettings set org.gnome.desktop.background picture-uri https://reods.jbsn.uk/background.jpg
-
-#	Min and Maximise Buttons on Windows
-gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
-
-#	Finished Installation Box
-zenity --info --text="Installation finished!\n\nFor support, documentation, etc, see the REODS website, <a href="https://reods.jbsn.uk">reods.jbsn.uk</a>.\n\nVersion 0.5\n\n(C) Jacob Sammon, 2021" --title="Installation of REODS finished" --ok-label="Okay, great!"
 
 #	Start GNOME
 startx
