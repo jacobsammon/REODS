@@ -1,9 +1,6 @@
 # REODS
 REODS sets up Debian as an OS usable for everyday tasks.
 
-# Features and Software
-A complete list of all features and software included with REODS can be found here: https://reods.jbsn.uk/#softwareandfeatures.
-
 # Installation
 
 ## Requirements
