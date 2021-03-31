@@ -68,5 +68,17 @@ apt install brave-browser -y
 #	Install GNOME (DE / Desktop Environment)
 apt-get install task-gnome-desktop -y
 
+# REODS Note
+echo "
+
+██████╗ ███████╗ ██████╗ ██████╗ ███████╗
+██╔══██╗██╔════╝██╔═══██╗██╔══██╗██╔════╝
+██████╔╝█████╗  ██║   ██║██║  ██║███████╗
+██╔══██╗██╔══╝  ██║   ██║██║  ██║╚════██║
+██║  ██║███████╗╚██████╔╝██████╔╝███████║
+╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚══════╝
+
+It's a good idea to run the following command post-install: gsettings set org.gnome.desktop.wm.preferences button-layout \":minimize,maximize,close\"" | tee REODS_POST-INSTALL
+
 #	Start GNOME
 startx
