@@ -41,7 +41,6 @@ apt-get install isync -y
 apt-get install msmtp -y
 apt-get install pass -y
 apt-get install pam-gnupg -y
-apt-get install lynx -y
 apt-get install notmuch -y
 apt-get install abook -y
 apt-get install urlview -y
