@@ -64,6 +64,14 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable ma
 apt update -y
 apt install brave-browser -y
 
+# CLI Weather
+
+echo "#!/bin/sh
+CYAN='\033[0;36m'
+printf "${CYAN}"
+curl wttr.in/?format=3" > /usr/bin/weather
+chmod +x /usr/bin/weather
+
 #	Install GNOME (DE / Desktop Environment)
 apt-get install task-gnome-desktop -y
 
