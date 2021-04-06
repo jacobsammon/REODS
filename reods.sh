@@ -5,7 +5,7 @@
 #
 # REODS is Copyright (C) 2021 Jacob Sammon
 # This program comes with ABSOLUTELY NO WARRANTY; for details see
-# reods.jbsn.uk/licence.
+# jacob-sa.net/software/licences/GPL-v3/
 #
 # This is free software, and you are welcome to redistribute it under
 # certain conditions; see github.com/jacobsammon/REODS/blob/main/LICENSE
@@ -13,7 +13,7 @@
 
 #	Updating, etc
 apt update -y
-apt update -y
+apt upgrade -y
 
 #	Install sudo
 apt install sudo -y
@@ -44,7 +44,6 @@ apt-get install pam-gnupg -y
 apt-get install lynx -y
 apt-get install notmuch -y
 apt-get install abook -y
-apt-get install cronie -y
 apt-get install urlview -y
 apt-get install mpop -y
 
