@@ -75,7 +75,7 @@ chmod +x /usr/bin/weather
 apt-get install task-gnome-desktop -y
 
 # REODS Note
-echo "
+printf "
 
 ██████╗ ███████╗ ██████╗ ██████╗ ███████╗
 ██╔══██╗██╔════╝██╔═══██╗██╔══██╗██╔════╝
@@ -84,7 +84,9 @@ echo "
 ██║  ██║███████╗╚██████╔╝██████╔╝███████║
 ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚══════╝
 
-It's a good idea to run the following command post-install: gsettings set org.gnome.desktop.wm.preferences button-layout \":minimize,maximize,close\"" | tee REODS_POST-INSTALL
+         INSTALLATION FINISHED
+
+"
 
 #	Start GNOME
 startx
