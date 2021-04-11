@@ -67,7 +67,7 @@ apt install brave-browser -y
 
 echo "#!/bin/sh
 CYAN='\033[0;36m'
-printf "${CYAN}"
+printf \"${CYAN}\"
 curl wttr.in/?format=3" > /usr/bin/weather
 chmod +x /usr/bin/weather
 
